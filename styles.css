@@ -37,17 +37,37 @@ section
 section img
 {
 	border-radius: 20px;
-	margin-left: 5px;
+	margin-right: 6px;
 	float: left;
+	transition: all 1s ease;
 }
 
-section p
+/* Start section IDs */
+#container
 {
-	margin-left: 210px;
-	color: #ffffff;
+
 }
 
-/* Start section classes */
+#about-img:target
+{
+	animation-duration: 1s;
+	float: right;
+}
+
+#resume-img:target
+{
+	animation-duration: 1.5s;
+}
+
+#project-img:target
+{
+	animation-duration: 2s;
+}
+
+#contact-img:target
+{
+	animation-duration: 2.5s;
+}
 
 footer
 {
