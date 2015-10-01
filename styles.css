@@ -36,9 +36,8 @@ section
 
 section img
 {
-	border-radius: 20px;
 	margin-right: 6px;
-	float: left;
+	border-radius: 20px;
 }
 
 section div p
@@ -47,6 +46,11 @@ section div p
 }
 
 /* Start section IDs */
+#section-wrapper
+{
+	width: 960;
+}
+
 #section-container
 {
 	border-color: #717171;
@@ -64,24 +68,32 @@ section div p
 	margin-bottom: 15px;
 }
 
-#about-img:target
+#about-img
 {
-
+	top: 166px;
+	left: 480px;
+	position: absolute;
 }
 
-#resume-img:target
+#resume-img
 {
-
+	top: 166px;
+	left: 716px;
+	position: absolute;
 }
 
-#project-img:target
+#projects-img
 {
-
+	top: 166px;
+	left: 952px;
+	position: absolute;
 }
 
-#contact-img:target
+#contact-img
 {
-
+	top: 166px;
+	left: 1188px;
+	position: absolute;
 }
 
 footer
