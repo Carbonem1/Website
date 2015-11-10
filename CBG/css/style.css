@@ -1,4 +1,16 @@
+.header
+{
+	position: absolute;
+	left: 50px;
+	top: 50px;
+	z-index: 1000;
+	font-size: 30px;
+}
 
+.nav-item
+{
+	padding-right: 30px;
+}
 
 /* inherent */
 .sl-slider-wrapper {
