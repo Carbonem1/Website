@@ -1,9 +1,17 @@
+/*  */
 .demo-1 .sl-slider-wrapper {
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	top: 0;
 	left: 0;
+}
+
+.CBG
+{
+	border-radius: 500px;
+	padding-top: 45px;
+	padding-left: 34px;
 }
 
 /* Custom navigation arrows */
@@ -185,6 +193,30 @@
 	background: #fff;
 }
 
+/* SECTION 1 (BIGMIKE) */
+/* background */
+.demo-1 .bg-1 .sl-slide-inner,
+.demo-1 .bg-1 .sl-content-slice {
+	background: #ffffff;
+}
+/* text */
+.demo-1 .bg-1 h2,
+.demo-1 .bg-1 blockquote{
+	color: #000;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+/* dotted circle */
+.demo-1 .bg-1 .deco {
+	border-color: #dedede;
+}
+/* animal */
+.demo-1 .bg-1 [data-icon]:after {
+	text-shadow: 0 0 1px #000000;
+	color: #000000;
+	/* animal circle*/
+	box-shadow: inset 0 0 0 10px #000000;
+}
+
 /* SECTION 2 (SAL) */
 /* background */
 .demo-1 .bg-2 .sl-slide-inner,
@@ -194,17 +226,17 @@
 /* text */
 .demo-1 .bg-2 h2,
 .demo-1 .bg-2 blockquote{
-	color: #000;
+	color: #fff;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 }
 /* dotted circle */
 .demo-1 .bg-2 .deco {
-	border-color: #000000;
+	border-color: #ffffff;
 }
 /* animal */
 .demo-1 .bg-2 [data-icon]:after {
 	text-shadow: 0 0 1px #000000;
-	color: #000000;
+	color: #ffffff;
 	/* animal circle*/
 	box-shadow: inset 0 0 0 10px #ffffff;
 }
@@ -295,7 +327,7 @@
 }
 /* dotted circle */
 .demo-1 .bg-6 .deco {
-	border-color: #ffffff;
+	border-color: #000000;
 }
 /* animal */
 .demo-1 .bg-6 [data-icon]:after {
@@ -309,7 +341,7 @@
 /* background */
 .demo-1 .bg-7 .sl-slide-inner,
 .demo-1 .bg-7 .sl-content-slice {
-	background: #df0000;
+	background: #000099;
 }
 /* text */
 .demo-1 .bg-7 h2,
@@ -319,16 +351,39 @@
 }
 /* dotted circle */
 .demo-1 .bg-7 .deco {
-	border-color: #ffffff;
+	border-color: #fcfc00;
 }
 /* animal */
 .demo-1 .bg-7 [data-icon]:after {
 	text-shadow: 0 0 1px #ffffff;
-	color: #ffffff;
+	color: #fcfc00;
 	/* animal circle*/
-	box-shadow: inset 0 0 0 10px #ff1a1a;
+	box-shadow: inset 0 0 0 10px #000066;
 }
 
+/* SECTION 8 (KIERAN) */
+/* background */
+.demo-1 .bg-8 .sl-slide-inner,
+.demo-1 .bg-8 .sl-content-slice {
+	background: #00e600;
+}
+/* text */
+.demo-1 .bg-8 h2,
+.demo-1 .bg-8 blockquote{
+	color: #000;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+/* dotted circle */
+.demo-1 .bg-8 .deco {
+	border-color: #000000;
+}
+/* animal */
+.demo-1 .bg-8 [data-icon]:after {
+	text-shadow: 0 0 1px #ffffff;
+	color: #000000;
+	/* animal circle*/
+	box-shadow: inset 0 0 0 10px #000000;
+	
 /* Animations for content elements */
 
 .sl-trans-elems .deco{
