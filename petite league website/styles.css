@@ -8,23 +8,11 @@
 	height:100%;
 }
 
-.social
-{
-	position: relative;
-	float: right;
-	z-index: 1;
-}
-
-.social-item
-{
-	padding: 20px;
-}
-
 .title-container
 {
 	margin: 0;
 	position: absolute;
-	top: 400%;
+	top: 800%;
     left: 53%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -35,7 +23,7 @@
 	font-weight: 700;
 	font-size: 40px;
 	font-family: 'Open Sans', sans-serif;
-	color: #FFFFFF;
+	color: #ffffff;
 	z-index: 1;
 }
 
@@ -45,6 +33,76 @@
 	z-index: 1;
 }
 
+#social
+{
+	margin-top: -2%;
+}
+
+#facebook
+{
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+}
+
+#facebook img
+{
+  position:absolute;
+  left: 81%;
+  -webkit-transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -o-transition: opacity .25s ease-in-out;
+  transition: opacity .25s ease-in-out;
+}
+
+#facebook img.f-white:hover
+{
+	opacity: 0;
+}
+
+#soundcloud
+{
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+}
+
+#soundcloud img
+{
+  position:absolute;
+  left: 87%;
+  -webkit-transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -o-transition: opacity .25s ease-in-out;
+  transition: opacity .25s ease-in-out;
+}
+
+#soundcloud img.s-white:hover
+{
+	opacity: 0;
+}
+
+#youtube
+{
+	margin: 0 auto;
+	position: relative;
+	z-index: 1;
+}
+
+#youtube img
+{
+  position:absolute;
+  left: 93%;
+  -webkit-transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -o-transition: opacity .25s ease-in-out;
+  transition: opacity .25s ease-in-out;
+}
+
+#youtube img.y-white:hover
+{
+	opacity: 0;
+}
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
 #cssmenu {
   width: auto;
