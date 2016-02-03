@@ -3,7 +3,7 @@ body
     background-color: #121212;
 }
 
-#wrapper 
+#wrapper
 {
     width: 960px;
     margin-right: auto;
@@ -21,28 +21,29 @@ header
 
 header img
 {
-	border-radius: 50px;
+	border-radius: 20px;
 }
 
 /* Start header classes*/
 
 section
 {
-    float: left;
-    margin-top: 15px;
-    margin-bottom: 15px;
+  float: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
 	margin-left: 10px;
 }
 
 section img
 {
 	margin-right: 6px;
-	border-radius: 20px;
+	border-radius: 10px;
 }
 
 section div p
 {
 	color: #FFFFFF;
+  font-size: 16px;
 }
 
 /* Start section IDs */
@@ -64,35 +65,39 @@ section div p
 #my-image
 {
 	border-radius: 100px;
-	margin-right: 15px;
-	margin-bottom: 15px;
+	margin-left: 33%;
 }
 
 #about-img
 {
 	top: 166px;
-	left: 480px;
+	left: 326px;
 	position: absolute;
 }
 
 #resume-img
 {
 	top: 166px;
-	left: 716px;
+	left: 562px;
 	position: absolute;
 }
 
 #projects-img
 {
 	top: 166px;
-	left: 952px;
+	left: 798px;
 	position: absolute;
+}
+
+#projects
+{
+  margin: 10px;
 }
 
 #contact-img
 {
 	top: 166px;
-	left: 1188px;
+	left: 1036px;
 	position: absolute;
 }
 
@@ -122,4 +127,3 @@ footer img
 {
 	float: right;
 }
-
